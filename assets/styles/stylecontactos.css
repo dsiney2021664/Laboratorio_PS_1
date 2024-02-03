@@ -1,60 +1,7 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ebf2f2;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+h1{
+    text-align: center;
 }
 
 .container {
-    background-color: #d0f2e7;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-}
-
-h2 {
     text-align: center;
-}
-
-.lista-contactos {
-    list-style: none;
-    padding: 0;
-}
-
-.lista-contactos li {
-    margin: 10px 0;
-}
-
-.lista-contactos a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 5px 10px;
-    display: block;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.lista-contactos a:hover {
-    background-color: #a2caa5;
-}
-
-.btn {
-    display: block;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ade0db;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #a2caa5;
 }

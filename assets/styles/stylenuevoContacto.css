@@ -1,0 +1,16 @@
+.input-group{
+    max-width: 500px;
+    margin: 10 auto;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
