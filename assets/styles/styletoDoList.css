@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formularios {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#formularios select,
+#formularios input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#acciones button {
+    margin: 0 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-grouo-item {
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background-color: aqua;
+    color: white;
+}
+
+.list-group-item:hover {
+    background-color: #ecf0f1;
+}
+
+.list-group-item .badge {
+    font-size: 14px;
+}
